@@ -1,0 +1,24 @@
+{
+  "name": "video-streaming-server-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsjtx/videoPlayer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dsjtx/videoPlayer/issues"
+  },
+  "homepage": "https://github.com/dsjtx/videoPlayer#readme"
+}

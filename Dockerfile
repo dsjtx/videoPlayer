@@ -1,6 +1,6 @@
 FROM node:latest
 
-WORKDIR /usr/src/app
+# WORKDIR /usr/src/app
 
 COPY package*.json ./
 
@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8000
 
-CMD [ "node", "app/index.js" ]
+ENTRYPOINT [ "node", "index.js" ]

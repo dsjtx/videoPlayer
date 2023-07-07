@@ -12,7 +12,7 @@ app.get("/video", function (req, res) {
         res.status(400).send("Requires Range Header");
     }
 
-    const videoName = "push-in-bots2022.mkv";
+    const videoName = "Black Clover Movie-Mahou Tei no Ken.mp4";
     // const videoName = "TheFirstResponderE01.mp4";
     const videoPath = videoName;
     const videoSize = fs.statSync(videoPath).size;
